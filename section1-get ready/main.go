@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "Exampling/Example"
+	"Exampling/Example"
 	"fmt"
 )
 
@@ -11,4 +11,5 @@ func main() {
 
 func init() {
 	fmt.Printf("Hello world\n")
+	Example.Example_for_packages()
 }

@@ -10,8 +10,8 @@ func BreakFallthroughStatement() {
 	switch num {
 	case 1:
 		fmt.Print("1")
-		break
-		fmt.Print(" the number")
+		// break
+		// fmt.Print(" the number")		// Can't do this
 	case 2:
 		fmt.Print("2")
 		fmt.Print(" the number")
